@@ -1,0 +1,1510 @@
+{
+ "seeds": [
+  3000,
+  3001,
+  3002,
+  3003,
+  3004,
+  3005,
+  3006,
+  3007,
+  3008,
+  3009,
+  3010,
+  3011,
+  3012,
+  3013,
+  3014,
+  3015,
+  3016,
+  3017,
+  3018,
+  3019,
+  3020,
+  3021,
+  3022,
+  3023,
+  3024,
+  3025,
+  3026,
+  3027,
+  3028,
+  3029
+ ],
+ "summary": {
+  "random": {
+   "median_steps_to_find": 409.0,
+   "mean_coverage_at_find": 0.3057942708333333,
+   "mean_hazard_hits": 87.1,
+   "find_rate": 0.2
+  },
+  "lawnmower": {
+   "median_steps_to_find": 40.5,
+   "mean_coverage_at_find": 0.5152994791666666,
+   "mean_hazard_hits": 13.933333333333334,
+   "find_rate": 1.0
+  },
+  "frontier": {
+   "median_steps_to_find": 63.5,
+   "mean_coverage_at_find": 0.5505533854166667,
+   "mean_hazard_hits": 22.233333333333334,
+   "find_rate": 1.0
+  },
+  "rl": {
+   "median_steps_to_find": 42.0,
+   "mean_coverage_at_find": 0.5402994791666667,
+   "mean_hazard_hits": 13.666666666666666,
+   "find_rate": 1.0
+  }
+ },
+ "episodes": {
+  "random": [
+   {
+    "coverage": 0.5341796875,
+    "steps": 409,
+    "hazard_hits": 74,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     -0.1,
+     -0.5
+    ],
+    "reward": -189.30000000000024
+   },
+   {
+    "coverage": 0.3818359375,
+    "steps": 307,
+    "hazard_hits": 161,
+    "target_found": true,
+    "drone_rewards": [
+     50.25,
+     -0.1,
+     -0.1
+    ],
+    "reward": -319.30000000000035
+   },
+   {
+    "coverage": 0.31640625,
+    "steps": 409,
+    "hazard_hits": 35,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     -0.5,
+     0.30000000000000004
+    ],
+    "reward": -149.55
+   },
+   {
+    "coverage": 0.3232421875,
+    "steps": 409,
+    "hazard_hits": 90,
+    "target_found": false,
+    "drone_rewards": [
+     -1.7000000000000002,
+     -0.1,
+     0.30000000000000004
+    ],
+    "reward": -261.7
+   },
+   {
+    "coverage": 0.177734375,
+    "steps": 409,
+    "hazard_hits": 18,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     0.30000000000000004,
+     0.30000000000000004
+    ],
+    "reward": -140.05000000000004
+   },
+   {
+    "coverage": 0.26953125,
+    "steps": 409,
+    "hazard_hits": 69,
+    "target_found": false,
+    "drone_rewards": [
+     -1.7000000000000002,
+     0.30000000000000004,
+     0.30000000000000004
+    ],
+    "reward": -221.9499999999999
+   },
+   {
+    "coverage": 0.4111328125,
+    "steps": 409,
+    "hazard_hits": 40,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     -0.5,
+     0.25
+    ],
+    "reward": -160.2000000000001
+   },
+   {
+    "coverage": 0.22265625,
+    "steps": 409,
+    "hazard_hits": 94,
+    "target_found": false,
+    "drone_rewards": [
+     -0.1,
+     0.30000000000000004,
+     0.30000000000000004
+    ],
+    "reward": -283.1499999999998
+   },
+   {
+    "coverage": 0.369140625,
+    "steps": 409,
+    "hazard_hits": 119,
+    "target_found": false,
+    "drone_rewards": [
+     -2.5,
+     -0.35,
+     0.30000000000000004
+    ],
+    "reward": -308.6500000000004
+   },
+   {
+    "coverage": 0.3603515625,
+    "steps": 409,
+    "hazard_hits": 84,
+    "target_found": false,
+    "drone_rewards": [
+     -0.1,
+     -1.7000000000000002,
+     -2.5
+    ],
+    "reward": -236.39999999999992
+   },
+   {
+    "coverage": 0.4453125,
+    "steps": 409,
+    "hazard_hits": 5,
+    "target_found": false,
+    "drone_rewards": [
+     0.75,
+     -0.5,
+     0.30000000000000004
+    ],
+    "reward": -78.94999999999995
+   },
+   {
+    "coverage": 0.33984375,
+    "steps": 409,
+    "hazard_hits": 64,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     -0.5,
+     -2.5
+    ],
+    "reward": -199.14999999999995
+   },
+   {
+    "coverage": 0.3134765625,
+    "steps": 409,
+    "hazard_hits": 73,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     0.45000000000000007,
+     -0.5
+    ],
+    "reward": -229.19999999999987
+   },
+   {
+    "coverage": 0.1826171875,
+    "steps": 409,
+    "hazard_hits": 227,
+    "target_found": false,
+    "drone_rewards": [
+     -0.1,
+     0.30000000000000004,
+     -0.1
+    ],
+    "reward": -554.1000000000001
+   },
+   {
+    "coverage": 0.3330078125,
+    "steps": 409,
+    "hazard_hits": 124,
+    "target_found": false,
+    "drone_rewards": [
+     1.05,
+     0.30000000000000004,
+     -0.1
+    ],
+    "reward": -327.0000000000001
+   },
+   {
+    "coverage": 0.21484375,
+    "steps": 409,
+    "hazard_hits": 61,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     -0.1,
+     -0.5
+    ],
+    "reward": -217.55000000000007
+   },
+   {
+    "coverage": 0.365234375,
+    "steps": 409,
+    "hazard_hits": 54,
+    "target_found": false,
+    "drone_rewards": [
+     0.9,
+     0.30000000000000004,
+     -0.1
+    ],
+    "reward": -181.25000000000017
+   },
+   {
+    "coverage": 0.3291015625,
+    "steps": 409,
+    "hazard_hits": 114,
+    "target_found": false,
+    "drone_rewards": [
+     0.30000000000000004,
+     -0.1,
+     -0.1
+    ],
+    "reward": -314.0000000000004
+   },
+   {
+    "coverage": 0.43359375,
+    "steps": 377,
+    "hazard_hits": 131,
+    "target_found": true,
+    "drone_rewards": [
+     0.30000000000000004,
+     50.25,
+     -0.1
+    ],
+    "reward": -265.95000000000033
+   },
+   {
+    "coverage": 0.13671875,
+    "steps": 409,
+    "hazard_hits": 205,
+    "target_found": false,
+    "drone_rewards": [
+     0.30000000000000004,
+     -1.7000000000000002,
+     -0.5
+    ],
+    "reward": -513.9499999999997
+   },
+   {
+    "coverage": 0.107421875,
+    "steps": 77,
+    "hazard_hits": 55,
+    "target_found": true,
+    "drone_rewards": [
+     -1.7000000000000002,
+     50.25,
+     -2.5
+    ],
+    "reward": -75.65000000000002
+   },
+   {
+    "coverage": 0.171875,
+    "steps": 131,
+    "hazard_hits": 47,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     0.30000000000000004,
+     -0.1
+    ],
+    "reward": -57.15000000000004
+   },
+   {
+    "coverage": 0.2998046875,
+    "steps": 265,
+    "hazard_hits": 64,
+    "target_found": true,
+    "drone_rewards": [
+     -0.5,
+     48.25,
+     -0.5
+    ],
+    "reward": -114.89999999999986
+   },
+   {
+    "coverage": 0.423828125,
+    "steps": 409,
+    "hazard_hits": 141,
+    "target_found": false,
+    "drone_rewards": [
+     -0.35,
+     0.30000000000000004,
+     -0.1
+    ],
+    "reward": -348.2499999999999
+   },
+   {
+    "coverage": 0.2275390625,
+    "steps": 409,
+    "hazard_hits": 86,
+    "target_found": false,
+    "drone_rewards": [
+     -0.1,
+     -0.1,
+     -0.050000000000000044
+    ],
+    "reward": -265.60000000000036
+   },
+   {
+    "coverage": 0.2607421875,
+    "steps": 409,
+    "hazard_hits": 141,
+    "target_found": false,
+    "drone_rewards": [
+     0.30000000000000004,
+     -0.1,
+     -0.5
+    ],
+    "reward": -378.5
+   },
+   {
+    "coverage": 0.3369140625,
+    "steps": 409,
+    "hazard_hits": 92,
+    "target_found": false,
+    "drone_rewards": [
+     -0.35,
+     -0.1,
+     -0.35
+    ],
+    "reward": -274.80000000000024
+   },
+   {
+    "coverage": 0.1259765625,
+    "steps": 60,
+    "hazard_hits": 22,
+    "target_found": true,
+    "drone_rewards": [
+     -2.5,
+     50.25,
+     -0.5
+    ],
+    "reward": -1.3000000000000043
+   },
+   {
+    "coverage": 0.4560546875,
+    "steps": 409,
+    "hazard_hits": 55,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     -1.7000000000000002,
+     0.30000000000000004
+    ],
+    "reward": -164.90000000000012
+   },
+   {
+    "coverage": 0.3037109375,
+    "steps": 409,
+    "hazard_hits": 68,
+    "target_found": false,
+    "drone_rewards": [
+     -0.5,
+     -0.1,
+     -0.5
+    ],
+    "reward": -216.70000000000002
+   }
+  ],
+  "lawnmower": [
+   {
+    "coverage": 0.484375,
+    "steps": 42,
+    "hazard_hits": 12,
+    "target_found": true,
+    "drone_rewards": [
+     0.30000000000000004,
+     50.25,
+     0.25
+    ],
+    "reward": 74.35000000000001
+   },
+   {
+    "coverage": 0.474609375,
+    "steps": 39,
+    "hazard_hits": 16,
+    "target_found": true,
+    "drone_rewards": [
+     0.9,
+     1.05,
+     50.25
+    ],
+    "reward": 62.95
+   },
+   {
+    "coverage": 0.44921875,
+    "steps": 37,
+    "hazard_hits": 13,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     0.25,
+     50.25
+    ],
+    "reward": 68.05
+   },
+   {
+    "coverage": 0.4423828125,
+    "steps": 37,
+    "hazard_hits": 7,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     50.25,
+     0.25
+    ],
+    "reward": 76.6
+   },
+   {
+    "coverage": 0.611328125,
+    "steps": 54,
+    "hazard_hits": 24,
+    "target_found": true,
+    "drone_rewards": [
+     0.75,
+     0.30000000000000004,
+     50.1
+    ],
+    "reward": 49.45
+   },
+   {
+    "coverage": 0.341796875,
+    "steps": 29,
+    "hazard_hits": 3,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     -1.75,
+     50.25
+    ],
+    "reward": 81.95
+   },
+   {
+    "coverage": 0.7509765625,
+    "steps": 61,
+    "hazard_hits": 17,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     49.05,
+     0.25
+    ],
+    "reward": 101.6
+   },
+   {
+    "coverage": 0.841796875,
+    "steps": 86,
+    "hazard_hits": 17,
+    "target_found": true,
+    "drone_rewards": [
+     -0.1,
+     -0.1,
+     50.25
+    ],
+    "reward": 92.44999999999999
+   },
+   {
+    "coverage": 0.5537109375,
+    "steps": 45,
+    "hazard_hits": 13,
+    "target_found": true,
+    "drone_rewards": [
+     -0.9500000000000002,
+     -0.5,
+     50.25
+    ],
+    "reward": 76.1
+   },
+   {
+    "coverage": 0.728515625,
+    "steps": 62,
+    "hazard_hits": 15,
+    "target_found": true,
+    "drone_rewards": [
+     0.09999999999999998,
+     1.05,
+     51.05
+    ],
+    "reward": 96.65
+   },
+   {
+    "coverage": 0.5517578125,
+    "steps": 48,
+    "hazard_hits": 10,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     -0.050000000000000044,
+     0.25
+    ],
+    "reward": 81.30000000000001
+   },
+   {
+    "coverage": 0.435546875,
+    "steps": 36,
+    "hazard_hits": 9,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     0.25,
+     50.25
+    ],
+    "reward": 66.65
+   },
+   {
+    "coverage": 0.9287109375,
+    "steps": 85,
+    "hazard_hits": 21,
+    "target_found": true,
+    "drone_rewards": [
+     -0.1,
+     -0.1,
+     50.25
+    ],
+    "reward": 114.10000000000001
+   },
+   {
+    "coverage": 0.3076171875,
+    "steps": 28,
+    "hazard_hits": 6,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     50.25,
+     0.25
+    ],
+    "reward": 65.8
+   },
+   {
+    "coverage": 0.63671875,
+    "steps": 73,
+    "hazard_hits": 19,
+    "target_found": true,
+    "drone_rewards": [
+     -0.1,
+     51.05,
+     0.25
+    ],
+    "reward": 59.25
+   },
+   {
+    "coverage": 0.5341796875,
+    "steps": 50,
+    "hazard_hits": 26,
+    "target_found": true,
+    "drone_rewards": [
+     -0.1,
+     0.25,
+     50.25
+    ],
+    "reward": 46.00000000000001
+   },
+   {
+    "coverage": 0.29296875,
+    "steps": 26,
+    "hazard_hits": 6,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     0.25,
+     50.25
+    ],
+    "reward": 68.95
+   },
+   {
+    "coverage": 0.5380859375,
+    "steps": 45,
+    "hazard_hits": 23,
+    "target_found": true,
+    "drone_rewards": [
+     0.6000000000000001,
+     0.25,
+     50.25
+    ],
+    "reward": 50.5
+   },
+   {
+    "coverage": 0.3994140625,
+    "steps": 33,
+    "hazard_hits": 10,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     50.25,
+     0.25
+    ],
+    "reward": 70.8
+   },
+   {
+    "coverage": 0.3408203125,
+    "steps": 33,
+    "hazard_hits": 15,
+    "target_found": true,
+    "drone_rewards": [
+     0.09999999999999998,
+     0.25,
+     51.05
+    ],
+    "reward": 55.0
+   },
+   {
+    "coverage": 0.15625,
+    "steps": 16,
+    "hazard_hits": 13,
+    "target_found": true,
+    "drone_rewards": [
+     50.25,
+     0.25,
+     -0.050000000000000044
+    ],
+    "reward": 47.35
+   },
+   {
+    "coverage": 0.236328125,
+    "steps": 23,
+    "hazard_hits": 11,
+    "target_found": true,
+    "drone_rewards": [
+     50.25,
+     0.25,
+     -0.050000000000000044
+    ],
+    "reward": 46.75000000000001
+   },
+   {
+    "coverage": 0.5302734375,
+    "steps": 43,
+    "hazard_hits": 14,
+    "target_found": true,
+    "drone_rewards": [
+     50.9,
+     -1.75,
+     0.25
+    ],
+    "reward": 70.29999999999998
+   },
+   {
+    "coverage": 0.869140625,
+    "steps": 78,
+    "hazard_hits": 28,
+    "target_found": true,
+    "drone_rewards": [
+     -0.1,
+     -0.1,
+     50.25
+    ],
+    "reward": 83.05
+   },
+   {
+    "coverage": 0.4580078125,
+    "steps": 38,
+    "hazard_hits": 13,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     0.75,
+     0.25
+    ],
+    "reward": 61.49999999999999
+   },
+   {
+    "coverage": 0.2763671875,
+    "steps": 25,
+    "hazard_hits": 2,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     0.25,
+     50.25
+    ],
+    "reward": 75.9
+   },
+   {
+    "coverage": 0.27734375,
+    "steps": 26,
+    "hazard_hits": 5,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     50.25,
+     0.25
+    ],
+    "reward": 66.95
+   },
+   {
+    "coverage": 0.8564453125,
+    "steps": 82,
+    "hazard_hits": 20,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     -0.1,
+     -0.5
+    ],
+    "reward": 106.29999999999997
+   },
+   {
+    "coverage": 0.3271484375,
+    "steps": 29,
+    "hazard_hits": 6,
+    "target_found": true,
+    "drone_rewards": [
+     50.25,
+     0.25,
+     0.25
+    ],
+    "reward": 64.1
+   },
+   {
+    "coverage": 0.8271484375,
+    "steps": 68,
+    "hazard_hits": 24,
+    "target_found": true,
+    "drone_rewards": [
+     -0.1,
+     -0.050000000000000044,
+     51.05
+    ],
+    "reward": 90.0
+   }
+  ],
+  "frontier": [
+   {
+    "coverage": 0.818359375,
+    "steps": 95,
+    "hazard_hits": 41,
+    "target_found": true,
+    "drone_rewards": [
+     -0.050000000000000044,
+     50.9,
+     -1.7000000000000002
+    ],
+    "reward": 80.14999999999999
+   },
+   {
+    "coverage": 0.4091796875,
+    "steps": 53,
+    "hazard_hits": 12,
+    "target_found": true,
+    "drone_rewards": [
+     50.75,
+     1.05,
+     0.75
+    ],
+    "reward": 71.1
+   },
+   {
+    "coverage": 0.3525390625,
+    "steps": 51,
+    "hazard_hits": 36,
+    "target_found": true,
+    "drone_rewards": [
+     48.9,
+     1.05,
+     -0.050000000000000044
+    ],
+    "reward": 5.39999999999997
+   },
+   {
+    "coverage": 0.693359375,
+    "steps": 69,
+    "hazard_hits": 17,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     0.25,
+     51.05
+    ],
+    "reward": 108.74999999999999
+   },
+   {
+    "coverage": 0.9482421875,
+    "steps": 122,
+    "hazard_hits": 31,
+    "target_found": true,
+    "drone_rewards": [
+     -1.7000000000000002,
+     -1.75,
+     50.1
+    ],
+    "reward": 105.99999999999997
+   },
+   {
+    "coverage": 0.2255859375,
+    "steps": 28,
+    "hazard_hits": 5,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     49.05,
+     0.6000000000000001
+    ],
+    "reward": 55.19999999999999
+   },
+   {
+    "coverage": 0.560546875,
+    "steps": 61,
+    "hazard_hits": 20,
+    "target_found": true,
+    "drone_rewards": [
+     0.30000000000000004,
+     49.95,
+     -0.2
+    ],
+    "reward": 70.35
+   },
+   {
+    "coverage": 0.3125,
+    "steps": 29,
+    "hazard_hits": 15,
+    "target_found": true,
+    "drone_rewards": [
+     0.6000000000000001,
+     50.25,
+     0.09999999999999998
+    ],
+    "reward": 49.45
+   },
+   {
+    "coverage": 0.8251953125,
+    "steps": 109,
+    "hazard_hits": 44,
+    "target_found": true,
+    "drone_rewards": [
+     50.25,
+     0.30000000000000004,
+     0.9
+    ],
+    "reward": 45.399999999999984
+   },
+   {
+    "coverage": 0.9033203125,
+    "steps": 113,
+    "hazard_hits": 43,
+    "target_found": true,
+    "drone_rewards": [
+     0.9,
+     -0.5,
+     51.05
+    ],
+    "reward": 68.60000000000001
+   },
+   {
+    "coverage": 0.8154296875,
+    "steps": 80,
+    "hazard_hits": 29,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     51.05,
+     0.09999999999999998
+    ],
+    "reward": 91.0
+   },
+   {
+    "coverage": 0.3896484375,
+    "steps": 47,
+    "hazard_hits": 9,
+    "target_found": true,
+    "drone_rewards": [
+     50.75,
+     -0.9500000000000002,
+     0.6000000000000001
+    ],
+    "reward": 77.10000000000001
+   },
+   {
+    "coverage": 0.228515625,
+    "steps": 29,
+    "hazard_hits": 6,
+    "target_found": true,
+    "drone_rewards": [
+     0.75,
+     0.25,
+     50.25
+    ],
+    "reward": 49.75
+   },
+   {
+    "coverage": 0.552734375,
+    "steps": 68,
+    "hazard_hits": 13,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     0.25,
+     50.1
+    ],
+    "reward": 93.85000000000002
+   },
+   {
+    "coverage": 0.6044921875,
+    "steps": 73,
+    "hazard_hits": 35,
+    "target_found": true,
+    "drone_rewards": [
+     -1.2500000000000002,
+     1.05,
+     50.1
+    ],
+    "reward": 43.9
+   },
+   {
+    "coverage": 0.8037109375,
+    "steps": 102,
+    "hazard_hits": 41,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     51.05,
+     0.30000000000000004
+    ],
+    "reward": 67.0
+   },
+   {
+    "coverage": 0.21875,
+    "steps": 28,
+    "hazard_hits": 2,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     50.25,
+     -2.05
+    ],
+    "reward": 54.150000000000006
+   },
+   {
+    "coverage": 0.6767578125,
+    "steps": 110,
+    "hazard_hits": 47,
+    "target_found": true,
+    "drone_rewards": [
+     0.75,
+     49.95,
+     -0.050000000000000044
+    ],
+    "reward": 36.70000000000002
+   },
+   {
+    "coverage": 0.7890625,
+    "steps": 80,
+    "hazard_hits": 23,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     0.25,
+     -0.050000000000000044
+    ],
+    "reward": 94.95000000000002
+   },
+   {
+    "coverage": 0.1953125,
+    "steps": 30,
+    "hazard_hits": 13,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     50.25,
+     -0.2
+    ],
+    "reward": 35.95
+   },
+   {
+    "coverage": 0.53125,
+    "steps": 66,
+    "hazard_hits": 34,
+    "target_found": true,
+    "drone_rewards": [
+     -1.2500000000000002,
+     51.05,
+     0.09999999999999998
+    ],
+    "reward": 38.34999999999999
+   },
+   {
+    "coverage": 0.5869140625,
+    "steps": 61,
+    "hazard_hits": 18,
+    "target_found": true,
+    "drone_rewards": [
+     0.25,
+     48.25,
+     0.25
+    ],
+    "reward": 73.6
+   },
+   {
+    "coverage": 0.6103515625,
+    "steps": 76,
+    "hazard_hits": 15,
+    "target_found": true,
+    "drone_rewards": [
+     49.05,
+     -0.9500000000000002,
+     0.9
+    ],
+    "reward": 95.10000000000002
+   },
+   {
+    "coverage": 0.2333984375,
+    "steps": 30,
+    "hazard_hits": 19,
+    "target_found": true,
+    "drone_rewards": [
+     50.75,
+     -2.05,
+     0.25
+    ],
+    "reward": 19.799999999999994
+   },
+   {
+    "coverage": 0.72265625,
+    "steps": 70,
+    "hazard_hits": 26,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     1.05,
+     0.75
+    ],
+    "reward": 88.94999999999999
+   },
+   {
+    "coverage": 0.1376953125,
+    "steps": 21,
+    "hazard_hits": 2,
+    "target_found": true,
+    "drone_rewards": [
+     -0.5,
+     49.95,
+     0.75
+    ],
+    "reward": 46.2
+   },
+   {
+    "coverage": 0.4736328125,
+    "steps": 57,
+    "hazard_hits": 16,
+    "target_found": true,
+    "drone_rewards": [
+     50.75,
+     0.75,
+     0.9
+    ],
+    "reward": 88.6
+   },
+   {
+    "coverage": 0.408203125,
+    "steps": 61,
+    "hazard_hits": 11,
+    "target_found": true,
+    "drone_rewards": [
+     0.6000000000000001,
+     49.05,
+     -0.050000000000000044
+    ],
+    "reward": 68.15000000000002
+   },
+   {
+    "coverage": 0.9609375,
+    "steps": 94,
+    "hazard_hits": 35,
+    "target_found": true,
+    "drone_rewards": [
+     0.75,
+     51.05,
+     0.30000000000000004
+    ],
+    "reward": 113.14999999999998
+   },
+   {
+    "coverage": 0.5283203125,
+    "steps": 57,
+    "hazard_hits": 9,
+    "target_found": true,
+    "drone_rewards": [
+     0.75,
+     1.05,
+     51.05
+    ],
+    "reward": 86.19999999999999
+   }
+  ],
+  "rl": [
+   {
+    "coverage": 0.6455078125,
+    "steps": 57,
+    "hazard_hits": 12,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     1.05,
+     0.9
+    ],
+    "reward": 159.79999999999998
+   },
+   {
+    "coverage": 0.9248046875,
+    "steps": 130,
+    "hazard_hits": 30,
+    "target_found": true,
+    "drone_rewards": [
+     0.30000000000000004,
+     -0.5,
+     50.9
+    ],
+    "reward": 187.59999999999997
+   },
+   {
+    "coverage": 0.3603515625,
+    "steps": 31,
+    "hazard_hits": 8,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     50.75,
+     0.45000000000000007
+    ],
+    "reward": 113.4
+   },
+   {
+    "coverage": 0.4248046875,
+    "steps": 37,
+    "hazard_hits": 8,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     51.05,
+     1.05
+    ],
+    "reward": 123.89999999999999
+   },
+   {
+    "coverage": 0.8994140625,
+    "steps": 104,
+    "hazard_hits": 26,
+    "target_found": true,
+    "drone_rewards": [
+     0.30000000000000004,
+     50.9,
+     0.75
+    ],
+    "reward": 201.10000000000002
+   },
+   {
+    "coverage": 0.5126953125,
+    "steps": 42,
+    "hazard_hits": 7,
+    "target_found": true,
+    "drone_rewards": [
+     -0.5,
+     1.05,
+     51.05
+    ],
+    "reward": 142.3
+   },
+   {
+    "coverage": 0.357421875,
+    "steps": 29,
+    "hazard_hits": 8,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     51.05,
+     0.75
+    ],
+    "reward": 112.75
+   },
+   {
+    "coverage": 0.609375,
+    "steps": 64,
+    "hazard_hits": 4,
+    "target_found": true,
+    "drone_rewards": [
+     0.30000000000000004,
+     0.25,
+     50.75
+    ],
+    "reward": 165.35000000000002
+   },
+   {
+    "coverage": 0.5283203125,
+    "steps": 42,
+    "hazard_hits": 21,
+    "target_found": true,
+    "drone_rewards": [
+     0.9,
+     51.05,
+     1.05
+    ],
+    "reward": 122.29999999999998
+   },
+   {
+    "coverage": 0.87890625,
+    "steps": 91,
+    "hazard_hits": 27,
+    "target_found": true,
+    "drone_rewards": [
+     -1.7000000000000002,
+     51.05,
+     0.30000000000000004
+    ],
+    "reward": 191.45
+   },
+   {
+    "coverage": 0.57421875,
+    "steps": 52,
+    "hazard_hits": 11,
+    "target_found": true,
+    "drone_rewards": [
+     50.9,
+     0.30000000000000004,
+     0.9
+    ],
+    "reward": 151.15000000000003
+   },
+   {
+    "coverage": 0.419921875,
+    "steps": 34,
+    "hazard_hits": 10,
+    "target_found": true,
+    "drone_rewards": [
+     0.75,
+     1.05,
+     51.05
+    ],
+    "reward": 121.25
+   },
+   {
+    "coverage": 0.349609375,
+    "steps": 37,
+    "hazard_hits": 7,
+    "target_found": true,
+    "drone_rewards": [
+     0.45000000000000007,
+     -0.5,
+     49.05
+    ],
+    "reward": 107.94999999999999
+   },
+   {
+    "coverage": 0.2255859375,
+    "steps": 21,
+    "hazard_hits": 13,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     49.05,
+     1.05
+    ],
+    "reward": 74.49999999999999
+   },
+   {
+    "coverage": 0.31640625,
+    "steps": 38,
+    "hazard_hits": 8,
+    "target_found": true,
+    "drone_rewards": [
+     0.45000000000000007,
+     51.05,
+     0.30000000000000004
+    ],
+    "reward": 96.95000000000002
+   },
+   {
+    "coverage": 0.57421875,
+    "steps": 45,
+    "hazard_hits": 8,
+    "target_found": true,
+    "drone_rewards": [
+     0.75,
+     49.05,
+     0.25
+    ],
+    "reward": 157.25
+   },
+   {
+    "coverage": 0.7451171875,
+    "steps": 60,
+    "hazard_hits": 19,
+    "target_found": true,
+    "drone_rewards": [
+     -0.5,
+     1.05,
+     51.05
+    ],
+    "reward": 175.00000000000003
+   },
+   {
+    "coverage": 0.6220703125,
+    "steps": 51,
+    "hazard_hits": 6,
+    "target_found": true,
+    "drone_rewards": [
+     0.6000000000000001,
+     50.9,
+     0.30000000000000004
+    ],
+    "reward": 170.80000000000004
+   },
+   {
+    "coverage": 0.4072265625,
+    "steps": 42,
+    "hazard_hits": 12,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     0.30000000000000004,
+     0.75
+    ],
+    "reward": 109.69999999999999
+   },
+   {
+    "coverage": 0.7431640625,
+    "steps": 70,
+    "hazard_hits": 22,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     1.05,
+     51.05
+    ],
+    "reward": 164.9
+   },
+   {
+    "coverage": 0.259765625,
+    "steps": 25,
+    "hazard_hits": 10,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     1.05,
+     1.05
+    ],
+    "reward": 83.74999999999999
+   },
+   {
+    "coverage": 0.6904296875,
+    "steps": 164,
+    "hazard_hits": 24,
+    "target_found": true,
+    "drone_rewards": [
+     49.05,
+     -0.5,
+     1.05
+    ],
+    "reward": 133.39999999999986
+   },
+   {
+    "coverage": 0.3447265625,
+    "steps": 32,
+    "hazard_hits": 2,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     1.05,
+     1.05
+    ],
+    "reward": 116.69999999999999
+   },
+   {
+    "coverage": 0.79296875,
+    "steps": 88,
+    "hazard_hits": 21,
+    "target_found": true,
+    "drone_rewards": [
+     -0.5,
+     0.30000000000000004,
+     50.9
+    ],
+    "reward": 177.14999999999992
+   },
+   {
+    "coverage": 0.3798828125,
+    "steps": 32,
+    "hazard_hits": 7,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     1.05,
+     1.05
+    ],
+    "reward": 116.09999999999997
+   },
+   {
+    "coverage": 0.9443359375,
+    "steps": 221,
+    "hazard_hits": 36,
+    "target_found": true,
+    "drone_rewards": [
+     -0.5,
+     -0.5,
+     51.05
+    ],
+    "reward": 161.29999999999973
+   },
+   {
+    "coverage": 0.2509765625,
+    "steps": 22,
+    "hazard_hits": 6,
+    "target_found": true,
+    "drone_rewards": [
+     1.05,
+     51.05,
+     1.05
+    ],
+    "reward": 94.1
+   },
+   {
+    "coverage": 0.1591796875,
+    "steps": 17,
+    "hazard_hits": 6,
+    "target_found": true,
+    "drone_rewards": [
+     0.9,
+     49.05,
+     0.75
+    ],
+    "reward": 69.1
+   },
+   {
+    "coverage": 0.4248046875,
+    "steps": 33,
+    "hazard_hits": 2,
+    "target_found": true,
+    "drone_rewards": [
+     51.05,
+     1.05,
+     1.05
+    ],
+    "reward": 137.10000000000002
+   },
+   {
+    "coverage": 0.8427734375,
+    "steps": 99,
+    "hazard_hits": 29,
+    "target_found": true,
+    "drone_rewards": [
+     0.6000000000000001,
+     51.05,
+     0.30000000000000004
+    ],
+    "reward": 178.70000000000005
+   }
+  ]
+ }
+}
